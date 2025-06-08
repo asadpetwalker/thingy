@@ -4556,6 +4556,12 @@
 		(uuid "597f9c4c-d47b-45b8-a323-1cfea61ff891")
 	)
 	(junction
+		(at 171.45 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63be9b5a-6a60-4114-8fc1-4ea6d4abf3da")
+	)
+	(junction
 		(at 198.12 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 173.99 133.35)
+			(xy 167.64 133.35) (xy 171.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6007,6 +6013,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 133.35) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e53131-39aa-4d2a-b2e6-4dd9826b11ba")
+	)
+	(wire
+		(pts
 			(xy 38.1 62.23) (xy 62.23 62.23)
 		)
 		(stroke
@@ -6134,6 +6150,16 @@
 			(type default)
 		)
 		(uuid "e8ac2f69-34fd-4ad7-b3df-47e1907620ec")
+	)
+	(wire
+		(pts
+			(xy 171.45 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9518d50-330e-499d-9262-ce1017a832c2")
 	)
 	(wire
 		(pts
@@ -6536,12 +6562,12 @@
 		(uuid "8fdd9214-26e6-471c-8ff5-ba4eb130bf50")
 	)
 	(label "H Bridge 1"
-		(at 127 116.84 180)
+		(at 127 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "98ee5b5b-e466-4056-bdf2-b7119c682afa")
 	)
